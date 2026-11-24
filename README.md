@@ -29,9 +29,17 @@ Benefits:
 
 ### 1. Detailed Explanation of the Proposed Solution
 ```
-"Farm Direct AI" is an all-in-one, local-language voice-first AI platform that eliminates intermediaries across the entire farming lifecycle—from seed selection and peer mentorship to direct wholesale delivery to local retail shops and consumers. Built on India's Bhashini multilingual voice stack and AgriStack farmer registries, the app features an ultra-simple, icon-and-voice interface that any farmer can operate effortlessly in their native language through five core modules:
+Farm Direct AI is an all-in-one, local-language voice-first AI platform that eliminates intermediaries across the
 
-* **AI Plant Variety Advisor:** Analyzes local soil health, micro-climate forecasts, and upcoming buyer demand to recommend the most profitable, disease-resistant plant varieties before sowing.
+ entire farming lifecycle—from seed selection and peer mentorship to direct wholesale delivery to local retail
+
+shops and consumers. Built on India's Bhashini multilingual voice stack and AgriStack farmer registries, the app
+
+features an ultra-simple, icon-and-voice interface that any farmer can operate effortlessly in their native
+
+language through five core modules:
+
+AI Plant Variety Advisor: Analyzes local soil health, micro-climate forecasts, and upcoming buyer demand to recommend the most profitable, disease-resistant plant varieties before sowing.
 
 Farmer-to-Farmer (F2F) Direct Seed Sharing Network: Cuts out private seed brokers and inflated retail markups by connecting neighboring farmers to directly share, barter, or buy quality seeds and saplings with verified germination ratings.
 
