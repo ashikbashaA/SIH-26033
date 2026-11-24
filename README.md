@@ -38,31 +38,31 @@ language through five core modules:
 * AI Plant Variety Advisor: Analyzes local soil health, micro-climate forecasts, and upcoming buyer demand to
 recommend the most profitable, disease-resistant plant varieties before sowing.
 
-Farmer-to-Farmer (F2F) Direct Seed Sharing Network: Cuts out private seed brokers and inflated retail markups by connecting neighboring farmers to directly share, barter, or buy quality seeds and saplings with verified germination ratings.
+* Farmer-to-Farmer (F2F) Direct Seed Sharing Network: Cuts out private seed brokers and inflated retail markups by connecting neighboring farmers to directly share, barter, or buy quality seeds and saplings with verified germination ratings.
 
-Peer Mentorship ("Lead Farmer / Kisan Guru" Clusters): Connects small and marginal farmers directly under experienced, knowledgeable Lead Farmers in their village who guide them on sowing, pest control, and uniform quality standards while pooling their harvests into wholesale-ready lots.
+* Peer Mentorship ("Lead Farmer / Kisan Guru" Clusters): Connects small and marginal farmers directly under experienced, knowledgeable Lead Farmers in their village who guide them on sowing, pest control, and uniform quality standards while pooling their harvests into wholesale-ready lots.
 
-Direct Wholesale-to-Shop & Consumer Marketplace: Enables Lead Farmer clusters and FPOs to sell wholesale directly to local retail shops (kirana stores, supermarkets, HoReCa) and urban consumers—cutting out mandi agents (arhtiyas) and commission middlemen for maximum farmer profit.
+* Direct Wholesale-to-Shop & Consumer Marketplace: Enables Lead Farmer clusters and FPOs to sell wholesale directly to local retail shops (kirana stores, supermarkets, HoReCa) and urban consumers—cutting out mandi agents (arhtiyas) and commission middlemen for maximum farmer profit.
 
-AI Demand Forecasting & Shared Route-Optimized Logistics: Predicts hyperlocal shop and consumer demand 7 to 14 days in advance and schedules shared mini-truck milk-runs to pick up pooled village harvests and deliver them directly to shops along the shortest route.
+* AI Demand Forecasting & Shared Route-Optimized Logistics: Predicts hyperlocal shop and consumer demand 7 to 14 days in advance and schedules shared mini-truck milk-runs to pick up pooled village harvests and deliver them directly to shops along the shortest route.
 
 
 ### 2. How It Addresses the Problem
 
-Eliminates Both Input & Output Intermediaries: Cuts middlemen at the start of the cycle (via direct Farmer-to-Farmer seed sharing) and at the end of the cycle (via direct wholesale-to-shop selling), increasing farmer net profits by 30% to 45% while lowering shop procurement and consumer prices by 15% to 25%.
+* Eliminates Both Input & Output Intermediaries: Cuts middlemen at the start of the cycle (via direct Farmer-to-Farmer seed sharing) and at the end of the cycle (via direct wholesale-to-shop selling), increasing farmer net profits by 30% to 45% while lowering shop procurement and consumer prices by 15% to 25%.
 
-Empowers Small Farmers with Collective Scale & Knowledge: Guided by experienced Lead Farmers, smallholders grow market-demanded varieties to uniform quality and pool micro-harvests together—unlocking direct wholesale access to retail shops that individual small farmers could never reach alone.
+* Empowers Small Farmers with Collective Scale & Knowledge: Guided by experienced Lead Farmers, smallholders grow market-demanded varieties to uniform quality and pool micro-harvests together—unlocking direct wholesale access to retail shops that individual small farmers could never reach alone.
 
-Removes Language & Digital Literacy Barriers: Replaces complex text menus with conversational regional voice commands (Tamil, Hindi, Telugu, Marathi, Kannada, etc.) and visual icons so every farmer can check plant varieties, request seeds, consult their Lead Farmer, and confirm wholesale shop orders hands-free.
+* Removes Language & Digital Literacy Barriers: Replaces complex text menus with conversational regional voice commands (Tamil, Hindi, Telugu, Marathi, Kannada, etc.) and visual icons so every farmer can check plant varieties, request seeds, consult their Lead Farmer, and confirm wholesale shop orders hands-free.
 
 
 ### 3. Innovation and Uniqueness of the Solution
 
-Seed-to-Shop End-to-End Integration: Unlike standalone marketplaces that only intervene after harvest, BeejSetu AI aligns plant variety selection and F2F seed sharing directly with forecasted wholesale shop demand—preventing overproduction and distress sales before crops are even planted.
+* Seed-to-Shop End-to-End Integration: Unlike standalone marketplaces that only intervene after harvest, BeejSetu AI aligns plant variety selection and F2F seed sharing directly with forecasted wholesale shop demand—preventing overproduction and distress sales before crops are even planted.
 
 * Human-in-the-Loop Peer Mentorship + AI: Combines local agricultural wisdom with AI intelligence by pairing small farmers with trusted village Lead Farmers who earn micro-incentives on successful collective wholesale deliveries, ensuring high adoption and consistent produce quality.
 
-Vernacular Voice-First UX with One-Tap Shop Fulfilment: Leverages real-time Indian language speech recognition and voice synthesis alongside instant UPI escrow payouts, turning a basic smartphone into a complete digital storefront, seed exchange, and AI agronomist. 
+* Vernacular Voice-First UX with One-Tap Shop Fulfilment: Leverages real-time Indian language speech recognition and voice synthesis alongside instant UPI escrow payouts, turning a basic smartphone into a complete digital storefront, seed exchange, and AI agronomist. 
 
 
 
@@ -72,42 +72,42 @@ Vernacular Voice-First UX with One-Tap Shop Fulfilment: Leverages real-time Indi
 
 "Frontend & Vernacular User Experience"
 
-React Native / Flutter (with Offline SQLite Sync): Builds a lightweight, icon-driven mobile app that stores data locally and syncs automatically in low-network villages.
+* React Native / Flutter (with Offline SQLite Sync): Builds a lightweight, icon-driven mobile app that stores data locally and syncs automatically in low-network villages.
 
-Bhashini API (Speech-to-Text & Text-to-Speech): Powers real-time regional voice commands and audio guidance across Indian languages so any farmer can operate the app effortlessly.
+* Bhashini API (Speech-to-Text & Text-to-Speech): Powers real-time regional voice commands and audio guidance across Indian languages so any farmer can operate the app effortlessly.
 
-Exotel IVR & SMS Gateway: Enables basic feature-phone access through automated voice calls and SMS alerts for order confirmations.
+* Exotel IVR & SMS Gateway: Enables basic feature-phone access through automated voice calls and SMS alerts for order confirmations.
 
 "Backend & Digital Commerce"
 
-Python (FastAPI) & Node.js: High-performance backend microservices managing F2F seed sharing, Lead Farmer clusters, and direct wholesale shop orders.
+* Python (FastAPI) & Node.js: High-performance backend microservices managing F2F seed sharing, Lead Farmer clusters, and direct wholesale shop orders.
 
-PostgreSQL + PostGIS & Redis: Geospatial database for matching nearby farms, Lead Farmers, and local retail shops with real-time inventory caching.
+* PostgreSQL + PostGIS & Redis: Geospatial database for matching nearby farms, Lead Farmers, and local retail shops with real-time inventory caching.
 
-ONDC Beckn Protocol: Ensures open-network interoperability so village harvests can reach broader institutional and retail buyer networks.
+* ONDC Beckn Protocol: Ensures open-network interoperability so village harvests can reach broader institutional and retail buyer networks.
 
-RazorpayX / UPI Smart Escrow: Holds buyer payments securely and releases instant 100% UPI payouts directly to farmers' bank accounts upon delivery scan.
+* RazorpayX / UPI Smart Escrow: Holds buyer payments securely and releases instant 100% UPI payouts directly to farmers' bank accounts upon delivery scan.
 
 "AI / ML & Route Optimization"
 
-XGBoost / LightGBM + RAG (ICAR & Soil Health Data): Recommends the highest-yielding, disease-resistant plant varieties tailored to local soil and micro-climate conditions.
+* XGBoost / LightGBM + RAG (ICAR & Soil Health Data): Recommends the highest-yielding, disease-resistant plant varieties tailored to local soil and micro-climate conditions.
 
-Temporal Fusion Transformer (TFT): Forecasts hyperlocal shop and consumer demand 7 to 14 days in advance to prevent overproduction and price crashes.
+* Temporal Fusion Transformer (TFT): Forecasts hyperlocal shop and consumer demand 7 to 14 days in advance to prevent overproduction and price crashes.
 
-Google OR-Tools (CVRPTW): Solves multi-stop vehicle routing to optimize shared mini-truck milk-runs from village pickup hubs directly to retail shops.
+* Google OR-Tools (CVRPTW): Solves multi-stop vehicle routing to optimize shared mini-truck milk-runs from village pickup hubs directly to retail shops.
 
-MobileNetV3 / YOLOv8: Runs lightweight on-device smartphone computer vision to verify seed quality and grade harvested produce (Grade A/B/C).
+* MobileNetV3 / YOLOv8: Runs lightweight on-device smartphone computer vision to verify seed quality and grade harvested produce (Grade A/B/C).
 
 "Hardware, IoT & Cloud Infrastructure"
 
-Basic Android Smartphones & Batch QR Tags: Enables instant camera quality scans and end-to-end farm-to-shop traceability without expensive hardware.
+* Basic Android Smartphones & Batch QR Tags: Enables instant camera quality scans and end-to-end farm-to-shop traceability without expensive hardware.
 
-GPS & BLE Temperature Sensors: Tracks shared delivery vehicles in real time and sends alerts to prevent perishable spoilage during transit.
+* GPS & BLE Temperature Sensors: Tracks shared delivery vehicles in real time and sends alerts to prevent perishable spoilage during transit.
 
-AWS / NIC MeghRaj Cloud: Provides secure, auto-scaling cloud deployment for high-volume peak harvest traffic.
+* AWS / NIC MeghRaj Cloud: Provides secure, auto-scaling cloud deployment for high-volume peak harvest traffic.
 
 
-### 2. Methodology and Process for Implementation End-to-End Operational Workflow (Flowchart Logic)
+### 2. Methodology and Process for Implementation<br>End-to-End Operational Workflow (Flowchart Logic)
 
 * Vernacular Onboarding & Soil/Location Profiling: Farmers and local retail shopkeepers register via Aadhaar/UPI e-KYC using regional voice prompts; the system fetches village micro-climate and Soil Health Card parameters.
 
