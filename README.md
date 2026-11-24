@@ -184,4 +184,5 @@ End-to-End Operational Workflow (Flowchart Logic)
 5. Links: https://seed.iihr.res.in/ | https://www.icar.org.in/
 6. Link: https://www.researchgate.net/publication/398729581_AI-Enhanced_Supply_Chain_Management_in_Agriculture
 
+## IMAGE
 ![alt text](Farm Direct AI_Image.png)
