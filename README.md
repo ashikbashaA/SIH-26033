@@ -26,9 +26,7 @@ Benefits:
 • Reduced supply chain inefficiencies.
 
 ## Proposed Solution
-
 ```
-
 1. Detailed Explanation of the Proposed Solution
 
 "Farm Direct AI" is an all-in-one, local-language voice-first AI platform that eliminates intermediaries across the entire farming lifecycle—from seed selection and peer mentorship to direct wholesale delivery to local retail shops and consumers. Built on India's Bhashini multilingual voice stack and AgriStack farmer registries, the app features an ultra-simple, icon-and-voice interface that any farmer can operate effortlessly in their native language through five core modules:
@@ -63,9 +61,7 @@ Benefits:
 
 
 ## Technical Approach
-
 ```
-
 1. Technologies to Be Used
 
 "Frontend & Vernacular User Experience"
@@ -122,9 +118,7 @@ End-to-End Operational Workflow (Flowchart Logic)
 ```
 
 ## Feasibility and Viability
-
 ```
-
 1. Analysis of Feasibility
 
 * Technical Feasibility: Built entirely on mature, open-source AI and geospatial frameworks (XGBoost, Google OR-Tools, PostGIS) integrated with India's established Digital Public Infrastructure—Bhashini for 22+ Indian languages, UPI for zero-delay bank transfers, and open AGMARKNET/Soil Health Card data. Offline-first local storage guarantees usability in low-connectivity villages.
@@ -154,9 +148,7 @@ End-to-End Operational Workflow (Flowchart Logic)
 ```
 
 ## Impact and Benefits
-
 ```
-
 1. Potential Impact on Target Audienc
 
 * Small & Marginal Farmers: Increases net farmgate profit by 30% to 45% by eliminating both seed middlemen and mandi commission agents (arhtiyas), while cutting seed input costs by 15% to 20% via direct F2F seed sharing.
